@@ -7,6 +7,7 @@ export default function Services() {
     return (
         <div className='service-container'>
             <Service/>
+            <Service style={"main-card"}/>   
             <Service />   
         </div>
     )

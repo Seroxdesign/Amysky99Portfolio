@@ -5,17 +5,89 @@
 }
 
 @media only screen and (min-width: 1024px){
-    .footer-container{
-        height: 100%;
+    .footer-wrapper{
+        height: 60vh;
         width: 100%;
+        background-color: rgb(26, 25, 25);
+        overflow-x: hidden;
+        box-sizing: border-box;
         display: grid;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 90% 10%;
     }
 
-    .footer-bottom{
+    .footer-privacy{
         grid-row: 2;
-        background-color: rgb(25, 25, 25);
-        width: 100%; 
-        height: 100%; 
+        grid-column: 1/4;
+        background-color: #1d1d1d;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .privacy{
+        color: rgba(255, 255, 255, 0.627);
+        margin-left: 3em;
+        font-size: small;
+        text-align: center;
+    }
+
+
+    .support-me{
+        margin-top: 3em;
+        padding-left: 1em;
+      
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .site-map{
+        margin-top: 3em;
+        padding-left: 1em;
+        
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .support-header{
+        color: rgb(230, 227, 227);
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .support-para{
+        margin-top: 1em;
+        font-size: small;
+        height: 5em;
+        width: 50%;
+        margin-left: 25%;
+        color: rgba(255, 255, 255, 0.537);
+        text-align: center;
+    }
+
+    .support-me-btn{
+        width: 15vw;
+        height: 5vh;
+        margin-top: 1em;
+        background-color: #303030;
+        border: 2px solid white;
+        color: white;
+    }
+
+    .support-me-btn:hover{
+        width: 15vw;
+        height: 5vh;
+        background-color: #3d3c3c;
+        border: 2px solid rgb(189, 171, 171);
+        color: white;
+    }
+
+    .support-me-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

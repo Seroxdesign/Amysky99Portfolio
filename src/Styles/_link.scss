@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
   }
 
   .links-profile-header{
@@ -28,11 +28,13 @@
 
   .link-container{
       margin-top: 1em;
-      width: 50%;
-      height: 13vh;
-      background-color: rgb(99, 97, 97);
+      width: 40%;
+      height: 10vh;
+      padding: 1em;
+      background-color: #121212;
+      border: 2px solid rgba(255, 255, 255, 0.279);
       &:hover{
-        background-color: rgb(181, 178, 178);
+        background-color: rgb(0, 0, 0);
         transition: 0.7s;
         transform: scale(0.9);
     }
@@ -43,10 +45,28 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: 100%;
   }
 
   .link-img-small{
     height: 2em;
-    filter: brightness(0);
+    filter: brightness(0) invert(1);
+  }
+
+  .social-titles{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .head-s-1{
+    
+  }
+  .head-s-2{
+    opacity: 0.5;
+    font-size: x-small;
   }
 }

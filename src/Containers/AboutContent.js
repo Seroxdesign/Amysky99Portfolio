@@ -7,7 +7,7 @@ import '../Styles/styles.css'
 export default function AboutContent() {
     return (
         <div className='about-content'>
-            <ProfileImg />
+            <ProfileImg img={"https://i.imgur.com/hxmTqUn.jpg?1"}/>
             <AboutCard />
             <div className=''>
                 <h3 className='content-header' style={{color: 'white', borderBottom: '3px solid white'}}>My Skills</h3>

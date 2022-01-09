@@ -7,7 +7,7 @@ import '../Styles/styles.css'
 export default function LinkContent() {
     return (
         <div className='links-content'>
-            <ProfileImg />
+            <ProfileImg img={"https://i.imgur.com/hxmTqUn.jpg?1"}/>
 
             <div className='links-profile-info'>
                 <h3 className='links-profile-header'>Name of Creator</h3>
