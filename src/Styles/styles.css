@@ -65,11 +65,19 @@
   .header {
     font-size: 64px;
     text-shadow: 5px 5px rgba(86, 86, 86, 0.183);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: #0097A1;
   }
   .header-underline2 {
     width: 10%;
     height: 1vh;
-    background-color: #BFB9FA;
+    background-color: #FABFB9;
     border-radius: 50px;
     margin-top: 2em;
     border: none;
@@ -149,37 +157,10 @@
 
 @media only screen and (min-width: 1024px) {
   .landing-router {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2em;
     height: 50%;
     width: 50%;
     margin-top: 2em;
     padding: 1em;
-  }
-  .landing-route-box {
-    width: 100%;
-    height: 90%;
-    background-color: white;
-    border-radius: 5%;
-    border: 5px solid #00676e5e;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: 70% 30%;
-        grid-template-rows: 70% 30%;
-  }
-  .landing-route-box .landing-route-bottom {
-    background-color: #242323;
-    padding-top: 2em;
-  }
-  .landing-route-box:hover {
-    -webkit-transition: 0.7s;
-    transition: 0.7s;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
-    border: 15px solid #00676e;
   }
 }
 
@@ -220,7 +201,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border: 4px solid #00676e;
+    border: 4px solid #0097A1;
   }
   .work-item-r {
     height: 60vh;
@@ -235,7 +216,7 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    border: 4px solid #00676e;
+    border: 4px solid #0097A1;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -272,7 +253,7 @@
     margin-bottom: 2em;
   }
   .work-link {
-    background-color: #00676e;
+    background-color: #0097A1;
     height: 5vh;
     width: 40%;
     margin-left: 30%;
@@ -545,8 +526,9 @@
     background-color: black;
     -webkit-transition: 0.7s;
     transition: 0.7s;
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    border: 2px solid #0097A1;
   }
   .link-data {
     display: -webkit-box;
@@ -598,13 +580,14 @@
   .about-card {
     height: 70vh;
     width: 40%;
-    border: 2px solid rgba(255, 255, 255, 0.109);
     padding: 1em;
+    padding-top: 2em;
   }
   .para-about {
     color: rgba(255, 255, 255, 0.836);
     line-height: 1.4em;
     font-size: large;
+    text-align: center;
   }
 }
 
@@ -779,5 +762,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+strong {
+  margin-left: 0.3em;
 }
 /*# sourceMappingURL=styles.css.map */

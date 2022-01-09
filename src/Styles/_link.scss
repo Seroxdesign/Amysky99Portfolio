@@ -36,7 +36,8 @@
       &:hover{
         background-color: rgb(0, 0, 0);
         transition: 0.7s;
-        transform: scale(0.9);
+        transform: scale(1.1);
+        border: 2px solid $bordercolor;
     }
   }
 

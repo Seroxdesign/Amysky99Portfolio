@@ -15,7 +15,6 @@ import './App.css';
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-
       <Routes>
         <Route exact path="/" element={<HomePage />}></Route>
         <Route exact path="/links" element={<LinksPage />}></Route>
