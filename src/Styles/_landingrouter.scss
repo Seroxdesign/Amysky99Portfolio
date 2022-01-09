@@ -1,0 +1,71 @@
+@import './variables';
+
+.landing-router{
+
+}
+
+
+
+
+@media only screen and (max-width: 1023px){
+    .landing-router{
+        margin-top: 2em;
+        width: 80%;
+        height: 50%;
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    .landing-route-box{
+        height: 40%;
+        margin-left: 10%;
+        width: 80%;
+        margin-top: 1em;
+        background-color: $thirdcolor;
+        border-radius: 5%;
+
+        display: grid;
+        grid-template-rows: 70% 30%;
+
+        .landing-route-bottom{
+            background-color: rgb(36, 35, 35);
+        }
+        &:hover{
+            background-color: $secondaryHeader;
+            transition: 0.7s;
+            transform: scale(0.9);
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .landing-router{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2em;
+        height: 50%;
+        width: 50%;
+        margin-top: 2em;
+        padding: 1em;
+    }
+
+    .landing-route-box{
+        width: 100%;
+        height: 90%;
+        background-color: white;
+        border-radius: 5%;
+        border: 5px solid #00676e5e;
+        display: grid;
+        grid-template-rows: 70% 30%;
+
+        .landing-route-bottom{
+            background-color: rgb(36, 35, 35);
+            padding-top: 2em;
+        }
+        &:hover{
+            transition: 0.7s;
+            transform: scale(0.9);
+            border: 15px solid $bordercolor;
+        }
+    }
+}

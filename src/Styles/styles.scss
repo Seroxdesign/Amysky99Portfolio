@@ -1,0 +1,114 @@
+@import './variables';
+@import './Navbar';
+@import './mainheader';
+@import './secondaryheader';
+@import './landingrouter';
+@import './worklist';
+@import './comingsoon';
+@import './endorsedcreators';
+@import './footer';
+@import './services';
+@import './profileimg';
+@import './link';
+@import './aboutcard';
+@import './skills';
+
+.home-wrapper{
+    height: 100%;
+    width: 100vw;
+    background-color: $pageBGcolor;
+}
+
+
+
+.content{
+    height: 100vh;
+    width: 100%;
+    padding-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-content{
+    width: 100%;
+    height: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2em;
+    background-color: $pageBGcolor2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.endorsed-content{
+    width: 100%;
+    height: 100vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2em;
+    background-color: $pageBGcolor2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-header{
+    margin-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.775);
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.707);
+}
+
+.services-content{
+    width: 100%;
+    height: 80vh;
+    background-color: $pageBGcolor;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 100%;
+    height: 60vh;
+    background-color: $navbarBGcolor;
+}
+
+.links-content{
+    height: 100%;
+    width: 100%;
+    background-color: $pageBGcolor;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-content{
+    height: 100%;
+    width: 100%;
+    background-color: $pageBGcolor;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

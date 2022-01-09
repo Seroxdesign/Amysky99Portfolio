@@ -1,0 +1,52 @@
+@import './variables';
+
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (min-width: 1024px){
+
+  .links-profile-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+
+  .links-profile-header{
+    color: white;
+    text-align: center;
+  }
+
+  .links-profile-para{
+    color: rgba(255, 255, 255, 0.714);
+    width: 70%;
+    margin-top: 0.5em;
+    text-align: center;
+  }
+
+  .link-container{
+      margin-top: 1em;
+      width: 50%;
+      height: 13vh;
+      background-color: rgb(99, 97, 97);
+      &:hover{
+        background-color: rgb(181, 178, 178);
+        transition: 0.7s;
+        transform: scale(0.9);
+    }
+  }
+
+  .link-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .link-img-small{
+    height: 2em;
+    filter: brightness(0);
+  }
+}

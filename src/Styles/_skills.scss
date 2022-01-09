@@ -1,0 +1,21 @@
+@import './variables';
+
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (min-width: 1024px){
+    .skills-wrapper{
+        height: 90vh;
+        width: 60%;
+        margin-top: 2em;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .skill-collection{
+        height: 100%;
+        width: 100%;
+        border: 2px solid white;
+    }
+}
