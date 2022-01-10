@@ -8,15 +8,16 @@
     .about-card{
         height: 70vh;
         width: 40%;
-
-        padding: 1em;
-        padding-top: 2em;
+        background-color: rgb(35, 35, 35);
+        padding: 2em;
+        padding-top: 3em;
+        border-radius: 15px;
     }
 
     .para-about{
-        color: rgba(255, 255, 255, 0.836);
+        color: rgba(255, 255, 255, 0.736);
         line-height: 1.4em;
-        font-size: large;
+        font-size: medium;
         text-align: center;
         
     }

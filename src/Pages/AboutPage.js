@@ -8,7 +8,7 @@ import '../Styles/styles.css'
 
 export default function AboutPage() {
     return (
-        <div className='home-wrapper'>
+        <div className='home-wrapper' >
             <Navbar />
             <main>
                 <AboutContent />

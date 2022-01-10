@@ -1,0 +1,24 @@
+@import './variables';
+
+@media only screen and (max-width: 1023px){
+    
+}
+
+@media only screen and (min-width: 1024px){
+    .powered-by-wrapper{
+        width: 100vw;
+        height: 10vh;
+        background-color: $navbarBGcolor;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+
+    .skill-p-img{
+        filter: brightness(0) invert(1); 
+        height: 2em;
+    }
+}

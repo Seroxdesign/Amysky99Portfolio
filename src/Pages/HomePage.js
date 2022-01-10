@@ -5,6 +5,7 @@ import WorkContent from 'Containers/WorkContent'
 import ComingSoon from 'Components/ComingSoon'
 import ServicesContent from 'Containers/ServicesContent'
 import FooterContent from 'Containers/FooterContent'
+import PoweredBy from 'Components/PoweredBy'
 import '../Styles/styles.css'
 
 export default function HomePage() {
@@ -16,6 +17,7 @@ export default function HomePage() {
 
             <main> 
                 <LandingContent />
+                <PoweredBy />
                 <hr className='header-underline2'></hr>
                 <WorkContent />
               

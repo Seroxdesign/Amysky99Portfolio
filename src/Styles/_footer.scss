@@ -73,15 +73,16 @@
         height: 5vh;
         margin-top: 1em;
         background-color: #303030;
-        border: 2px solid white;
+        border: 2px solid $maincolor;
         color: white;
     }
 
     .support-me-btn:hover{
+        cursor: pointer;
         width: 15vw;
         height: 5vh;
-        background-color: #3d3c3c;
-        border: 2px solid rgb(189, 171, 171);
+        background-color: #585656;
+        border: 2px solid rgb(60, 168, 197);
         color: white;
     }
 

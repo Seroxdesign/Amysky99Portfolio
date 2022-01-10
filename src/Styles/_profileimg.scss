@@ -7,13 +7,14 @@
 @media only screen and (min-width: 1024px){
 
     .profile-img{
-        height: 18vh;
-        width: 18vh;
+        height: 20vh;
+        width: 20vh;
         background-color: white;
         margin-top: 2em;
         border-radius: 50%;
         background-size: cover;
         margin-bottom: 2em;
+        border: 1px solid $maincolor;
     }
 
 

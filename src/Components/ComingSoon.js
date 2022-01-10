@@ -3,7 +3,7 @@ import '../Styles/styles.css'
 
 export default function ComingSoon() {
     return (
-        <div className='coming-soon-card' style={{backgroundImage: `url(https://i.imgur.com/o83Nqsb.png?2})`, backgroundSize: 'cover'}}>
+        <div className='coming-soon-card' style={{backgroundImage: `url(https://i.imgur.com/rI1WO6h.png})`, backgroundSize: 'cover'}}>
             
         </div>
     )

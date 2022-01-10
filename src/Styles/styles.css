@@ -15,8 +15,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #242424;
-    opacity: 0.9;
+    opacity: 0.8;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -27,6 +26,7 @@
         justify-content: space-around;
     padding-left: 80vw;
     padding-right: 4vw;
+    background-color: #242424;
   }
 }
 
@@ -36,7 +36,7 @@
 /* Text Color */
 /* Sizes */
 .header {
-  background-color: #BFB9FA;
+  background-color: #0097A1;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: x-large;
@@ -45,7 +45,7 @@
 .header-underline {
   width: 5%;
   height: 0.7vh;
-  background-color: #FABFB9;
+  background-color: #0097A1;
   border-radius: 50px;
   margin-top: 1em;
   border: none;
@@ -63,7 +63,7 @@
 
 @media only screen and (min-width: 1024px) {
   .header {
-    font-size: 64px;
+    font-size: 74px;
     text-shadow: 5px 5px rgba(86, 86, 86, 0.183);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -77,7 +77,7 @@
   .header-underline2 {
     width: 10%;
     height: 1vh;
-    background-color: #FABFB9;
+    background-color: #0097A1;
     border-radius: 50px;
     margin-top: 2em;
     border: none;
@@ -110,9 +110,9 @@
 
 @media only screen and (min-width: 1024px) {
   .secondary-header {
-    font-size: medium;
+    font-size: x-large;
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.864);
     width: 50%;
   }
@@ -157,10 +157,34 @@
 
 @media only screen and (min-width: 1024px) {
   .landing-router {
-    height: 50%;
+    height: 30%;
     width: 50%;
-    margin-top: 2em;
     padding: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .consult-btn {
+    margin-top: -2em;
+    height: 7vh;
+    width: 20vw;
+    background-color: #e2e2e2;
+    border: 2px solid #0097A1;
+    border-radius: 50px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+  .consult-btn:hover {
+    background-color: #0097A1;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 
@@ -413,14 +437,15 @@
     height: 5vh;
     margin-top: 1em;
     background-color: #303030;
-    border: 2px solid white;
+    border: 2px solid #0097A1;
     color: white;
   }
   .support-me-btn:hover {
+    cursor: pointer;
     width: 15vw;
     height: 5vh;
-    background-color: #3d3c3c;
-    border: 2px solid #bdabab;
+    background-color: #585656;
+    border: 2px solid #3ca8c5;
     color: white;
   }
   .support-me-link {
@@ -457,11 +482,48 @@
     width: 100%;
     height: 85%;
     margin-top: 1.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .main-card {
     width: 100%;
     height: 95%;
     margin-top: 0em;
+  }
+  .service-offer-btn {
+    width: 50%;
+    height: 10%;
+    border-radius: 50px;
+    background-color: #0097A1;
+    cursor: pointer;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    margin-top: 2em;
+  }
+  .service-offer-btn:hover {
+    border: 2px solid black;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .service-title-header {
+    height: 10%;
+  }
+  .service-feat-item {
+    color: #2d2d2d;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
   }
 }
 
@@ -472,13 +534,14 @@
 /* Sizes */
 @media only screen and (min-width: 1024px) {
   .profile-img {
-    height: 18vh;
-    width: 18vh;
+    height: 20vh;
+    width: 20vh;
     background-color: white;
     margin-top: 2em;
     border-radius: 50%;
     background-size: cover;
     margin-bottom: 2em;
+    border: 1px solid #0097A1;
   }
 }
 
@@ -580,13 +643,15 @@
   .about-card {
     height: 70vh;
     width: 40%;
-    padding: 1em;
-    padding-top: 2em;
+    background-color: #232323;
+    padding: 2em;
+    padding-top: 3em;
+    border-radius: 15px;
   }
   .para-about {
-    color: rgba(255, 255, 255, 0.836);
+    color: rgba(255, 255, 255, 0.736);
     line-height: 1.4em;
-    font-size: large;
+    font-size: medium;
     text-align: center;
   }
 }
@@ -611,6 +676,69 @@
     height: 100%;
     width: 100%;
     border: 2px solid rgba(255, 255, 255, 0.122);
+    background-color: #232323;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .skill-header {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.748);
+    margin-bottom: 1em;
+  }
+  .skill-grid-collection {
+    height: 60%;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+/* Color Palette */
+/* Backgrounds */
+/* Headers */
+/* Text Color */
+/* Sizes */
+@media only screen and (min-width: 1024px) {
+  .powered-by-wrapper {
+    width: 100vw;
+    height: 10vh;
+    background-color: #242424;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+  .skill-p-img {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+    height: 2em;
   }
 }
 

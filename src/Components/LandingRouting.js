@@ -8,7 +8,7 @@ export default function LandingRouting() {
         <div className='landing-router'>
         
         
-           
+           <button className='consult-btn'>Free Consultation</button>
     
     
         </div>
