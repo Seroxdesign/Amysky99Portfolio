@@ -14,15 +14,17 @@ export default function Skills() {
                     })}
                 </div>
             </div>
+          
             <div className='skill-collection'>
-                <h4 className='skill-header'>Video Editing</h4>
+                <h4 className='skill-header'>Social Media Management</h4>
 
                 <div className='skill-grid-collection'>
 
                 </div>
             </div>
+
             <div className='skill-collection'>
-                <h4 className='skill-header'>Social Media Management</h4>
+                <h4 className='skill-header'>Video Editing</h4>
 
                 <div className='skill-grid-collection'>
 

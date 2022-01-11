@@ -10,14 +10,14 @@ export default function MainHeader() {
                 DESIGN MADE  
                         <Typical
                             steps={[
-                                    'EASY',
-                                6000,
-                                'ELEGANT',
-                                6000,
-                                'ROBUST',
-                                6000,
                                 'SIMPLE',
-                                6000,
+                                5000,
+                                    'EASY',
+                                5000,
+                                'ELEGANT',
+                                5000,
+                                'SIMPLE',
+                                5000,
                                 ]}
                                 wrapper={'strong'}
                                 loop={1}/>

@@ -16,14 +16,14 @@
     }
 
     .service-card{
-        background-color: white;
+        border-radius: 5%;
+        background-image: linear-gradient(rgb(240, 240, 240), rgb(223, 222, 222));
         width: 100%; 
         height: 85%;
         margin-top: 1.5em;  
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        display: grid;
+        grid-template-rows: 30% 40% 30%;
+        border-top: 5px solid $maincolor;
     }
 
     .main-card{
@@ -33,27 +33,52 @@
     }
 
     .service-offer-btn{
-        width: 50%;
-        height: 10%;
-        border-radius: 50px;
+        grid-row: 3;
+        width: 45%;
+        margin-left: 27.5%;
+        margin-top: 2em;
         background-color: $maincolor;
+        height: 27%;
+        border-radius: 50px;
         cursor: pointer;
         transition: 0.6s;
-        margin-top: 2em;
+        border: 1px solid rgba(0, 0, 0, 0.632);
         &:hover{
             border: 2px solid black;
             transform: scale(1.1);
+            cursor: pointer;
         }
     }
 
     .service-title-header{
-        height: 10%;
+        grid-row: 1;
+        text-align: center;
+        padding-top: 2em;
+        color: #303030;
+        font-size: x-large;
+        text-shadow: 3px 3px rgba(211, 211, 211, 0.768);
     }
 
     .service-feat-item{
         color: rgb(45, 45, 45);
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.231);
         padding-bottom: 0.5em;
         margin-top: 1em;
+    }
+    
+
+    .main-btn-service{
+        width: 50%;
+        margin-left: 25%;
+        height: 30%;
+    }
+
+    .main-title-service{
+        font-size: xx-large;
+    }
+
+    .service-feat-list{
+        width:60%;
+        margin-left: 20%;
     }
 }

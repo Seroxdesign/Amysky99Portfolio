@@ -10,7 +10,7 @@ import '../Styles/styles.css'
 
 export default function HomePage() {
     return (
-        <div className='home-wrapper'>
+        <div className='home-wrapper' >
       
            
             <Navbar />

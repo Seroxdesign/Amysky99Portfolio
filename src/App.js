@@ -1,4 +1,4 @@
-
+import ScrollToTop from "HelperFunctions/ScrollToTop";
 import HomePage from "./Pages/HomePage";
 import LinksPage from "Pages/LinksPage";
 import AboutPage from "Pages/AboutPage";
@@ -15,11 +15,14 @@ import './App.css';
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <Routes>
-        <Route exact path="/" element={<HomePage />}></Route>
-        <Route exact path="/links" element={<LinksPage />}></Route>
-        <Route exact path="/about" element={<AboutPage />}></Route>
-      </Routes>
+      <ScrollToTop> 
+        <Routes>
+          <Route exact path="/" element={<HomePage />}></Route>
+          <Route exact path="/links" element={<LinksPage />}></Route>
+          <Route exact path="/about" element={<AboutPage />}></Route>
+        </Routes>
+      </ScrollToTop>
+     
 
     </Router>
   );

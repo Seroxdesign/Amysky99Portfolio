@@ -10,5 +10,24 @@
         background-color: $cardBGcolor;
         height: 90vh;
         margin-top: 1em;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .coming-soon-cta{
+        margin-bottom: 3em;
+        background-color: $maincolor;
+        width: 15vw;
+        height: 7vh;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.6s;
+        border: 1px solid rgba(0, 0, 0, 0.496);
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+            border: 2px solid rgb(0, 0, 0);
+        }
     }
 }

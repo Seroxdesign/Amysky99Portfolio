@@ -17,7 +17,7 @@
         margin-top: 2em;
         width: 60vw;
         border-radius: 50px;
-        background-color: $cardBGcolor;
+        background-image: linear-gradient(rgb(240, 240, 240), rgb(223, 222, 222));
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -28,7 +28,7 @@
         margin-top: 2em;
         width: 60vw;
         border-radius: 50px;
-        background-color: $cardBGcolor;
+        background-image: linear-gradient(rgb(240, 240, 240), rgb(223, 222, 222));
         display: flex;
         flex-direction:row-reverse ;
         border: 4px solid $bordercolor; 
