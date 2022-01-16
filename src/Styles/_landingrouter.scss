@@ -9,30 +9,22 @@
 
 @media only screen and (max-width: 1023px){
     .landing-router{
-        margin-top: 2em;
-        width: 80%;
-        height: 50%;
-        grid-template-rows: repeat(2, 1fr);
-    }
-    
-    .landing-route-box{
         height: 40%;
-        margin-left: 10%;
-        width: 80%;
-        margin-top: 1em;
-        background-color: $thirdcolor;
-        border-radius: 5%;
+    }
 
-        display: grid;
-        grid-template-rows: 70% 30%;
-
-        .landing-route-bottom{
-            background-color: rgb(36, 35, 35);
-        }
+    .consult-btn{
+        margin-top: 4em;
+        height: 7vh;
+        width: 60vw;
+        border: 2px solid $bordercolor;
+        background-color: #303030;
+        color: white;
+        border-radius: 50px;
+        transition: 0.6s;
+        cursor: pointer;
         &:hover{
-            background-color: $secondaryHeader;
-            transition: 0.7s;
-            transform: scale(0.9);
+            background-color: $bordercolor;
+            
         }
     }
 }
@@ -52,7 +44,8 @@
         margin-top: -2em;
         height: 7vh;
         width: 20vw;
-        background-color: #e2e2e2;
+        background-color: #303030;
+        color: white;
         border: 2px solid $bordercolor;
         border-radius: 50px;
         transition: 0.6s;

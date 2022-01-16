@@ -1,12 +1,26 @@
 @import './variables';
 
 @media only screen and (max-width: 1023px){
+    .about-card{
+    
+        width: 100%;
+        background-color: rgb(35, 35, 35);
+        padding: 2em;
+        padding-top: 3em;
+        border-radius: 15px;
+    }
 
+    .para-about{
+        color: rgba(255, 255, 255, 0.736);
+        line-height: 1.4em;
+        font-size: medium;
+        text-align: center;
+        
+    }
 }
 
 @media only screen and (min-width: 1024px){
     .about-card{
-        height: 70vh;
         width: 40%;
         background-color: rgb(35, 35, 35);
         padding: 2em;

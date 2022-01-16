@@ -1,7 +1,16 @@
 @import './variables';
 
 @media only screen and (max-width: 1023px){
-
+    .profile-img{
+        height: 17vh;
+        width: 17vh;
+        background-color: white;
+        margin-top: 2em;
+        border-radius: 50%;
+        background-size: cover;
+        margin-bottom: 2em;
+        border: 1px solid $maincolor;
+    }
 }
 
 @media only screen and (min-width: 1024px){

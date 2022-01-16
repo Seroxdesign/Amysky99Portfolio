@@ -8,6 +8,8 @@ export default function MainHeader() {
         <>
             <h2 className='header'>
                 DESIGN MADE  
+
+                <br id="mobile-only"></br>
                         <Typical
                             steps={[
                                 'SIMPLE',

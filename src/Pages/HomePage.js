@@ -5,21 +5,26 @@ import WorkContent from 'Containers/WorkContent'
 import ComingSoon from 'Components/ComingSoon'
 import ServicesContent from 'Containers/ServicesContent'
 import FooterContent from 'Containers/FooterContent'
+import CopyButton from 'Components/CopyButton'
+import HamBurgerNav from 'Components/HamBurgerNav'
 import PoweredBy from 'Components/PoweredBy'
 import '../Styles/styles.css'
 
 export default function HomePage() {
     return (
         <div className='home-wrapper' >
+
+           <HamBurgerNav />
       
-           
-            <Navbar />
 
             <main> 
+
+            
+            <CopyButton />
                 <LandingContent />
                 <PoweredBy />
                 <hr className='header-underline2'></hr>
-                <WorkContent />
+              
               
                 <ServicesContent />
                 <hr className='header-underline2'></hr>

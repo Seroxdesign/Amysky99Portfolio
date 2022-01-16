@@ -1,16 +1,48 @@
 @import './variables';
 
 @media only screen and (max-width: 1023px){
+    .skills-wrapper{
+        height: 70vh;
+        width: 100%;
+        margin-top: 2em;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1em;
+    }
 
+    .skill-collection{
+        height: 100%;
+        width: 100%;
+        border: 2px solid rgba(255, 255, 255, 0.122);
+        background-color: rgb(35, 35, 35);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skill-header{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.748);
+        margin-bottom: 1em;
+    }
+
+    .skill-grid-collection{
+        height: 60%;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 }
 
 @media only screen and (min-width: 1024px){
     .skills-wrapper{
-        height: 90vh;
+        height: 70vh;
         width: 40%;
         margin-top: 2em;
         display: grid;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-gap: 1em;
     }
 

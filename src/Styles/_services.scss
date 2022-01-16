@@ -1,7 +1,53 @@
 @import './variables';
 
 @media only screen and (max-width: 1023px){
+    .service-container{       
+        margin-top: 1em;
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 1.4em; 
+    }
 
+    
+    .service-card{
+        width: 100%; 
+        height: 100%;
+    }
+
+    .service-title-header{
+        text-align: center;
+        border-bottom: 2px solid $pageBGcolor;
+        margin-top: 1em;
+        padding-bottom: 1em;
+        font-size: large;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .service-offer-btn{
+        background-color: #303030;
+        height: 7vh;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 1em;
+        border: 2px solid $maincolor;
+        color: white;
+        
+        cursor: pointer;
+        transition: 0.3s;
+
+        &:hover{
+            border: 3px solid rgb(30, 30, 30);
+            transform: scale(0.9);
+        }
+    }
+
+    .service-feat-item{
+        color: rgba(255, 255, 255, 0.6);
+        text-align: center;
+        font-size: smaller;
+    }
+    
 }
 
 @media only screen and (min-width: 1024px){
@@ -9,7 +55,6 @@
         height: 75vh;
         margin-top: 1em;
         width: 100%;
-
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1.4em; 
@@ -43,6 +88,7 @@
         cursor: pointer;
         transition: 0.6s;
         border: 1px solid rgba(0, 0, 0, 0.632);
+        color: white;
         &:hover{
             border: 2px solid black;
             transform: scale(1.1);
