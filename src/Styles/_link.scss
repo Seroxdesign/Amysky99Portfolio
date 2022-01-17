@@ -30,12 +30,6 @@
     padding: 0.5em;
     background-color: #121212;
     border: 2px solid rgba(255, 255, 255, 0.279);
-    &:hover{
-      background-color: rgb(0, 0, 0);
-      transition: 0.7s;
-      transform: scale(1.1);
-      border: 2px solid $bordercolor;
-    }
   }
 
   .link-data{

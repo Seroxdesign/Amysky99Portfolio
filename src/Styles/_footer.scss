@@ -4,7 +4,7 @@
     .footer-wrapper{
         height: 100%;
         width: 100%;
-        background-color: rgb(25, 25, 25);
+        background-image: linear-gradient(rgb(26, 25, 25), black);
         overflow-x: hidden;
         flex-direction: column;
         display: flex;
@@ -17,6 +17,8 @@
         margin-top: 1em;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 95vw;
         padding-left: 1em;
     }
@@ -26,6 +28,8 @@
         height: 50vh;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 100vw;
         padding: 1em;
     }
@@ -47,6 +51,7 @@
         font-size: x-small;
         margin-top: 1em;
         width: 80%;
+        text-align: center;
         color: rgba(255, 255, 255, 0.537);
     }
 
@@ -90,7 +95,7 @@
     .footer-wrapper{
         height: 60vh;
         width: 100%;
-        background-color: rgb(26, 25, 25);
+        background-image: linear-gradient(rgb(26, 25, 25), black);
         overflow-x: hidden;
         box-sizing: border-box;
         display: grid;

@@ -230,7 +230,7 @@
     margin-top: 2em;
     padding: 2em;
     width: 45%;
-    border-radius: 50px;
+    border-radius: 5%;
     background-color: #232323;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -248,7 +248,7 @@
     margin-top: 2em;
     width: 45%;
     padding: 2em;
-    border-radius: 50px;
+    border-radius: 5%;
     background-color: #232323;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -323,7 +323,8 @@
   .footer-wrapper {
     height: 100%;
     width: 100%;
-    background-color: #191919;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1a1919), to(black));
+    background-image: linear-gradient(#1a1919, black);
     overflow-x: hidden;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -344,6 +345,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 95vw;
     padding-left: 1em;
   }
@@ -357,6 +364,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100vw;
     padding: 1em;
   }
@@ -383,6 +396,7 @@
     font-size: x-small;
     margin-top: 1em;
     width: 80%;
+    text-align: center;
     color: rgba(255, 255, 255, 0.537);
   }
   .support-me-btn {
@@ -428,7 +442,8 @@
   .footer-wrapper {
     height: 60vh;
     width: 100%;
-    background-color: #1a1919;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1a1919), to(black));
+    background-image: linear-gradient(#1a1919, black);
     overflow-x: hidden;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -547,6 +562,7 @@
     -ms-grid-rows: (1fr)[3];
         grid-template-rows: repeat(3, 1fr);
     grid-gap: 1.4em;
+    padding-bottom: 2em;
   }
   .service-card {
     width: 100%;
@@ -733,14 +749,6 @@
     padding: 0.5em;
     background-color: #121212;
     border: 2px solid rgba(255, 255, 255, 0.279);
-  }
-  .link-container:hover {
-    background-color: black;
-    -webkit-transition: 0.7s;
-    transition: 0.7s;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-    border: 2px solid #0097A1;
   }
   .link-data {
     display: -webkit-box;
