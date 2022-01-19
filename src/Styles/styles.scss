@@ -4,7 +4,7 @@
 @import './secondaryheader';
 @import './landingrouter';
 @import './worklist';
-
+@import './processcard';
 @import './footer';
 @import './services';
 @import './profileimg';
@@ -13,11 +13,22 @@
 @import './skills';
 @import './PoweredBy';
 @import './HamburgerNav';
-
+@import './TestimonialCard';
 
 
 
 @media only screen and (min-width: 1024px){
+
+    .container-content{
+        width: 100%;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        background-color: $pageBGcolor;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
     .copy-to-btn{
       
@@ -101,17 +112,17 @@
     .content-header{
         width: 20vw;
         padding-bottom: 1em;
-        margin-top: 3em;
-        border-bottom: 5px solid rgba(255, 255, 255, 0.775);
-        font-size: medium;
-        color: rgba(255, 255, 255, 0.707);
+        margin-top: 2em;
+
+        font-size: large;
+        color: rgba(255, 255, 255, 0.768);
         text-align: center;
     }
     
     .services-content{
         width: 100%;
         height: 90vh;
-        background-color: $pageBGcolor;
+        background-image: linear-gradient(#303030,#2a3132,#22464a, $maincolor  );
         padding-left: 10vw;
         padding-right: 10vw;
         padding-bottom: 2em;
@@ -165,8 +176,39 @@
         width: 100vw;
     }
 
+    .process-content{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        flex-direction: column;
+        background-image: linear-gradient($maincolor,#22464a, #2a3132, #303030);
+    }
    
-   
+    .project-content-container{
+        height: 100vh;
+
+    }
+
+    .testimonial-content{
+        height: 100%;
+    }
+
+    .project-grid{
+        width: 80%;
+        height: 80%;
+        padding: 1em;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+
+    .project-display{
+        border: 1px solid white;
+    }
 }
 
 

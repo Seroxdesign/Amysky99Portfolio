@@ -25,7 +25,7 @@
 
 @media only screen and (min-width: 1024px) {
   .header {
-    font-size: 64px;
+    font-size: 54px;
     text-shadow: 5px 5px rgba(86, 86, 86, 0.183);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -74,7 +74,7 @@
 
 @media only screen and (min-width: 1024px) {
   .secondary-header {
-    font-size: x-large;
+    font-size: larger;
     text-align: center;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.864);
@@ -311,6 +311,85 @@
     border: 3px solid #1e1e1e;
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
+  }
+}
+
+/* Color Palette */
+/* Backgrounds */
+/* Headers */
+/* Text Color */
+/* Sizes */
+@media only screen and (min-width: 1024px) {
+  .process-card {
+    height: 80vh;
+    background-color: #303030;
+    width: 90%;
+    margin-top: 1em;
+    border-radius: 50px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 90% 10%;
+        grid-template-rows: 90% 10%;
+    padding: 1em;
+  }
+  .process-lists {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .process-list-container {
+    padding: 1.5em;
+  }
+  .process-title-intro-container {
+    height: 30%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .process-list {
+    margin-top: 5%;
+    border: 1px solid white;
+    height: 60%;
+    width: 100%;
+  }
+  .process-cta-btn {
+    width: 20%;
+    height: 70%;
+    margin-left: 40%;
+    border: 3px solid #0097A1;
+    border-radius: 50px;
+    color: white;
+    background-color: #303030;
+    cursor: pointer;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .process-cta-btn:hover {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    background-color: #474747;
+  }
+  .process-title {
+    font-size: large;
+    color: #0097A1;
+    text-align: center;
+  }
+  .process-explain-para {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 12px;
+    margin-top: 1em;
   }
 }
 
@@ -1181,7 +1260,84 @@
   padding: 2em;
 }
 
+/* Color Palette */
+/* Backgrounds */
+/* Headers */
+/* Text Color */
+/* Sizes */
 @media only screen and (min-width: 1024px) {
+  .testimonial-card {
+    margin-top: 1em;
+    width: 65vw;
+    height: 80vh;
+    padding: 1em;
+    padding-bottom: 2em;
+    background-color: #242424;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testimonial-review {
+    height: 40%;
+    width: 60%;
+    border: 1px solid white;
+  }
+  .testimonial-flipper {
+    height: 10%;
+    width: 60%;
+    border: 1px solid white;
+    margin-top: 1em;
+  }
+  .testimonial-btn {
+    height: 10%;
+    width: 30%;
+    margin-top: 2em;
+    border: 3px solid #0097A1;
+    border-radius: 50px;
+    color: white;
+    background-color: #303030;
+    cursor: pointer;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .testimonial-btn:hover {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    background-color: #474747;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container-content {
+    width: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #303030;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .copy-to-btn {
     position: absolute;
     top: 2vh;
@@ -1286,16 +1442,16 @@
   .content-header {
     width: 20vw;
     padding-bottom: 1em;
-    margin-top: 3em;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.775);
-    font-size: medium;
-    color: rgba(255, 255, 255, 0.707);
+    margin-top: 2em;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.768);
     text-align: center;
   }
   .services-content {
     width: 100%;
     height: 90vh;
-    background-color: #303030;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#303030), color-stop(#2a3132), color-stop(#22464a), to(#0097A1));
+    background-image: linear-gradient(#303030, #2a3132, #22464a, #0097A1);
     padding-left: 10vw;
     padding-right: 10vw;
     padding-bottom: 2em;
@@ -1375,6 +1531,47 @@
             justify-content: center;
     height: 15vh;
     width: 100vw;
+  }
+  .process-content {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0097A1), color-stop(#22464a), color-stop(#2a3132), to(#303030));
+    background-image: linear-gradient(#0097A1, #22464a, #2a3132, #303030);
+  }
+  .project-content-container {
+    height: 100vh;
+  }
+  .testimonial-content {
+    height: 100%;
+  }
+  .project-grid {
+    width: 80%;
+    height: 80%;
+    padding: 1em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1em;
+  }
+  .project-display {
+    border: 1px solid white;
   }
 }
 

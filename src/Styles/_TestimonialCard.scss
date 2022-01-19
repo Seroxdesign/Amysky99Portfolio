@@ -1,0 +1,50 @@
+@import './variables';
+
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (min-width: 1024px){
+    .testimonial-card{
+        margin-top: 1em;
+        width: 65vw;
+        height: 80vh;
+        padding: 1em;
+        padding-bottom: 2em;
+        background-color: $navbarBGcolor;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .testimonial-review{
+        height: 40%;
+        width: 60%;
+        border: 1px solid white; 
+    }
+
+    .testimonial-flipper{
+        height: 10%;
+        width: 60%;
+        border: 1px solid white; 
+        margin-top: 1em;
+    }
+
+    .testimonial-btn{
+        height: 10%;
+        width: 30%;
+        margin-top: 2em;
+        border: 3px solid $maincolor;
+        border-radius: 50px;
+        color: white;
+        background-color: #303030;
+        cursor: pointer;
+        transition: 0.7s;
+        &:hover{
+            transform: scale(0.9);
+            background-color: #474747;
+        }
+    }
+}
