@@ -7,7 +7,12 @@ export default function TestimonialCard() {
         <div className='testimonial-card'>
             <ProfileImg />
 
-            <p className='testimonial-review'></p>
+            <p className='testimonial-review'>
+                Let's leave a nice review for the gentleman here, he knows what's up and I assume you do too if you're visiting this page
+                Let's leave a nice review for the gentleman here, he knows what's up and I assume you do too if you're visiting this page
+                Let's leave a nice review for the gentleman here, he knows what's up and I assume you do too if you're visiting this page
+                Let's leave a nice review for the gentleman here, he knows what's up and I assume you do too if you're visiting this page
+            </p>
 
             <div className='testimonial-flipper'>
 

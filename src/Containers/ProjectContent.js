@@ -7,10 +7,22 @@ export default function ProjectContent() {
             <h2 className='content-header'>My recent projects</h2>
             
             <div className='project-grid'>
-                <div className='project-display'></div>
-                <div className='project-display'></div>
-                <div className='project-display'></div>
-                <div className='project-display'></div>
+
+                <div className='project-display project-1' >
+                    <img className='project-img' src='' alt=''></img>
+                </div>
+
+                <div className='project-display project-2' >
+                    <img className='project-img' src='' alt=''></img>
+                </div>
+
+                <div className='project-display project-3' >
+                    <img className='project-img' src='' alt=''></img>
+                </div>
+
+                <div className='project-display project-4' >
+                    <img className='project-img' src='' alt=''></img>
+                </div>
             </div>
         </div>
     )

@@ -13,12 +13,14 @@
     
     .service-card{
         width: 100%; 
+        padding: 1em;
         height: 100%;
+        background-image: linear-gradient(#191919, #1b1b1b);
+        padding-bottom: 2em;
     }
 
     .service-title-header{
         text-align: center;
-        border-bottom: 2px solid $pageBGcolor;
         margin-top: 1em;
         padding-bottom: 1em;
         font-size: large;
@@ -45,7 +47,10 @@
 
     .service-feat-item{
         color: rgba(255, 255, 255, 0.6);
+        padding-bottom: 1em;
         text-align: center;
+        width: 80%;
+        margin-left: 10%;
         font-size: smaller;
     }
     
@@ -53,17 +58,20 @@
 
 @media only screen and (min-width: 1024px){
     .service-container{
-        height: 75vh;
+        height: 100vh;
+        width: 90%;
         margin-top: 1em;
-        width: 100%;
+        border-radius: 50px;
+        padding: 2em;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        background-color: #303030;
         grid-gap: 1.4em; 
     }
 
     .service-card{
         border-radius: 5%;
-        background-image: linear-gradient(rgb(240, 240, 240), rgb(223, 222, 222));
+        background-color: #1b1b1b;
         width: 100%; 
         height: 85%;
         margin-top: 1.5em;  
@@ -84,7 +92,7 @@
         margin-left: 27.5%;
         margin-top: 2em;
         background-color: $maincolor;
-        height: 27%;
+        height: 7vh;
         border-radius: 50px;
         cursor: pointer;
         transition: 0.6s;
@@ -101,14 +109,14 @@
         grid-row: 1;
         text-align: center;
         padding-top: 2em;
-        color: #303030;
+        color: $maincolor;
         font-size: x-large;
-        text-shadow: 3px 3px rgba(211, 211, 211, 0.768);
     }
 
     .service-feat-item{
-        color: rgb(45, 45, 45);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.231);
+        color: rgb(253, 253, 253);
+        text-align: center;
+        font-size: small;
         padding-bottom: 0.5em;
         margin-top: 1em;
     }

@@ -19,6 +19,21 @@
 
 @media only screen and (min-width: 1024px){
 
+    .project-1{
+        background-image: linear-gradient(-45deg, rgba(226, 213, 213, 0.75), rgb(128, 38, 196));
+   
+    }
+    .project-2{
+        background-image: linear-gradient(45deg, rgba(226, 213, 213, 0.75), rgb(17, 171, 153));
+    }
+    .project-3{
+        background-image: linear-gradient(-135deg, rgba(226, 213, 213, 0.75), rgb(17, 171, 86));
+    }
+
+    .project-4{
+        background-image: linear-gradient(135deg, rgba(226, 213, 213, 0.75), rgb(171, 17, 50));
+    }
+
     .container-content{
         width: 100%;
         padding-left: 10vw;
@@ -122,9 +137,6 @@
     .services-content{
         width: 100%;
         height: 90vh;
-        background-image: linear-gradient(#303030,#2a3132,#22464a, $maincolor  );
-        padding-left: 10vw;
-        padding-right: 10vw;
         padding-bottom: 2em;
         display: flex;
         flex-direction: column;
@@ -184,7 +196,7 @@
         justify-content: center;
         padding: 1em;
         flex-direction: column;
-        background-image: linear-gradient($maincolor,#22464a, #2a3132, #303030);
+    
     }
    
     .project-content-container{
@@ -207,13 +219,36 @@
     }
 
     .project-display{
-        border: 1px solid white;
+        border: none;
+        cursor: pointer;
+        transition: 0.6s;
+     
+        &:hover{
+            transform: scale(0.95);
+            background-color: #2a3132;
+        }
     }
 }
 
 
 
 @media only screen and (max-width: 1023px){
+
+
+    .project-1{
+        background-image: linear-gradient(-45deg, rgba(226, 213, 213, 0.75), rgb(128, 38, 196));
+   
+    }
+    .project-2{
+        background-image: linear-gradient(45deg, rgba(226, 213, 213, 0.75), rgb(17, 171, 153));
+    }
+    .project-3{
+        background-image: linear-gradient(-135deg, rgba(226, 213, 213, 0.75), rgb(17, 171, 86));
+    }
+
+    .project-4{
+        background-image: linear-gradient(135deg, rgba(226, 213, 213, 0.75), rgb(171, 17, 50));
+    }
 
    
     .copy-to-btn{
@@ -281,11 +316,12 @@
     .content-header{
         width: 90vw;
         padding-bottom: 1em;
-        margin-top: 3em;
-        border-bottom: 3px solid $maincolor;
+        margin-top: 1em;
+
         font-size: medium;
-        color: $maincolor;
+        color: white;
         text-align: center;
+        overflow-y: hidden;
     }
 
     .services-content{
@@ -312,6 +348,58 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .process-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        flex-direction: column;
+        padding-bottom: 2em;
+       
+        border-bottom: 1px solid rgba(211, 211, 211, 0.299);
+    }
+
+    .testimonial-content{
+        height: 100%;
+        background-color: #303030;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-bottom: 1px solid rgba(211, 211, 211, 0.299);
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .project-content-container{
+        background-color: #303030;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid rgba(211, 211, 211, 0.299);
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .project-grid{
+        width: 100%;
+        height: 100%;
+        padding: 1em;
+        grid-gap: 1em;
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .project-display{
+        height: 40vh;
+        width: 90%;
+        border: 1px solid white;
+        margin-left: 5%;
+        border-radius: 50px;
     }
 }
 
