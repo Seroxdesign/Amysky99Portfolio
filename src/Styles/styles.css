@@ -125,7 +125,6 @@
             justify-content: center;
   }
   .consult-btn {
-    margin-top: -2em;
     height: 7vh;
     width: 20vw;
     background-color: #303030;
@@ -138,8 +137,8 @@
   }
   .consult-btn:hover {
     background-color: #0097A1;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
   }
 }
 
@@ -361,7 +360,7 @@
     font-size: small;
   }
   .process-cta-btn {
-    width: 40%;
+    width: 40vw;
     height: 8vh;
     border: 3px solid #0097A1;
     border-radius: 50px;
@@ -449,7 +448,6 @@
   .process-cta-btn {
     width: 20%;
     height: 70%;
-    margin-left: 40%;
     border: 3px solid #0097A1;
     border-radius: 50px;
     color: white;
@@ -779,7 +777,7 @@
 
 @media only screen and (min-width: 1024px) {
   .service-container {
-    height: 100vh;
+    height: 100%;
     width: 90%;
     margin-top: 1em;
     border-radius: 50px;
@@ -812,7 +810,6 @@
     -ms-grid-row: 3;
     grid-row: 3;
     width: 45%;
-    margin-left: 27.5%;
     margin-top: 2em;
     background-color: #0097A1;
     height: 7vh;
@@ -843,11 +840,6 @@
     font-size: small;
     padding-bottom: 0.5em;
     margin-top: 1em;
-  }
-  .main-btn-service {
-    width: 50%;
-    margin-left: 25%;
-    height: 30%;
   }
   .main-title-service {
     font-size: xx-large;
@@ -1735,6 +1727,9 @@
             transform: scale(0.95);
     background-color: #2a3132;
   }
+  .invisible {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -1908,6 +1903,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: 2em;
+    background-color: #303030;
     border-bottom: 1px solid rgba(211, 211, 211, 0.299);
   }
   .testimonial-content {

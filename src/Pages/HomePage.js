@@ -1,5 +1,4 @@
 import React from 'react'
-import TestimonialContent from 'Containers/TestimonialContent'
 import LandingContent from 'Containers/LandingContent'
 import ProcessContent from 'Containers/ProcessContent'
 import ServicesContent from 'Containers/ServicesContent'
@@ -24,8 +23,8 @@ export default function HomePage() {
                 <LandingContent />
                 <PoweredBy />
                 <ProcessContent />
-                <ProjectContent />
-                <TestimonialContent />
+           
+               
                 <ServicesContent />
                 <FooterContent />
             </main>

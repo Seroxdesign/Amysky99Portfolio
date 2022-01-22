@@ -54,7 +54,7 @@ export default function ProcessCard() {
             
             </div>
 
-            <button className='process-cta-btn'>Let's talk</button>
+            <a href="https://form.jotform.com/220207089713149" style={{marginLeft: '0%'}} target="_blank"><button className='process-cta-btn'>Let's talk</button></a>
         </div>
     )
 }

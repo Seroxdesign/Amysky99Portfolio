@@ -4,7 +4,7 @@ const links = [
     ['https://i.imgur.com/VEy7t1k.png', "https://twitter.com/seroxdesigns", "@Seroxdesigns", "Twitter"],
     ['https://i.imgur.com/9iCbGf3.png', "https://www.linkedin.com/in/sherif-cherfa-346b85202/", "Sherif Cherfa", "LinkedIn"],
     ['https://i.imgur.com/j8hA7X0.png', "https://www.youtube.com/channel/UCeNLqAes-kUMjWksPA6d-BA", "Serotonin Designs", "YouTube"],
-    ['https://i.imgur.com/GXQ4AeC.png', "https://www.tiktok.com/@serotoninexperience?", "Serotonin Experience", "Tiktok"],
+    ['https://i.imgur.com/GXQ4AeC.png', "https://www.tiktok.com/@seroxdesigns?", "Serotonin Designs", "Tiktok"],
 
 ]
 

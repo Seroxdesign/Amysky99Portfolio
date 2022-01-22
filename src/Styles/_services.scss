@@ -58,7 +58,7 @@
 
 @media only screen and (min-width: 1024px){
     .service-container{
-        height: 100vh;
+        height: 100%;
         width: 90%;
         margin-top: 1em;
         border-radius: 50px;
@@ -89,7 +89,7 @@
     .service-offer-btn{
         grid-row: 3;
         width: 45%;
-        margin-left: 27.5%;
+
         margin-top: 2em;
         background-color: $maincolor;
         height: 7vh;
@@ -122,11 +122,7 @@
     }
     
 
-    .main-btn-service{
-        width: 50%;
-        margin-left: 25%;
-        height: 30%;
-    }
+   
 
     .main-title-service{
         font-size: xx-large;

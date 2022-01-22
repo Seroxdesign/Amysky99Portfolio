@@ -13,7 +13,9 @@ export default function Service(props) {
                 <li className='service-feat-item'>{props.feat3}</li>
             </ol>
 
+            <a href={props.link}  target="_blank">
             <button className={`service-offer-btn ${props.btn_style}`}>{props.btn_cta}</button>
+            </a> 
         </div>
     )
 }

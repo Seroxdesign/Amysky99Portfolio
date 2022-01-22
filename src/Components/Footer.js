@@ -51,14 +51,14 @@ export default function Footer() {
                 </p>
                 
    
-                <a className="support-me-link" href="https://www.serotonindesigns.com" target="_blank">
-                    <button className="support-me-btn">View website</button>
+                <a className="support-me-link" href="https://www.serotonindesigns.com/links" target="_blank">
+                    <button className="support-me-btn">View Links</button>
                 </a>
 
                 <a className="support-me-link"  href="https://discord.com/invite/raEGkkQ7gf" target="_blank">
                     <button className="support-me-btn">Discord community</button>
                 </a>
-                <a className="support-me-link"  href="https://www.serotonindesigns.com/contact" target="_blank">
+                <a className="support-me-link"  href="https://form.jotform.com/220207089713149" target="_blank">
                     <button className="support-me-btn">Share your ideas</button>
                 </a>
           

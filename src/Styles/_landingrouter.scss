@@ -41,7 +41,7 @@
     }
 
     .consult-btn{
-        margin-top: -2em;
+
         height: 7vh;
         width: 20vw;
         background-color: #303030;
@@ -52,7 +52,7 @@
         cursor: pointer;
         &:hover{
             background-color: $bordercolor;
-            transform: scale(1.1);
+            transform: scale(0.9);
         }
     }
     
