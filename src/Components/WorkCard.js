@@ -5,7 +5,7 @@ export default function WorkCard(props) {
     return (
         <li className={props.direction}>
             <div className='work-svg-holder'>
-                <img src={props.img} className='rev-color'></img>
+                <img src={props.img} className='skill-img'></img>
             </div>
             
             <div className='work-details'>

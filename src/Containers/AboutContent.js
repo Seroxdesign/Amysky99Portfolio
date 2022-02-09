@@ -8,7 +8,7 @@ import '../Styles/styles.css'
 export default function AboutContent() {
     return (
         <div className='about-content' style={{backgroundImage: `url(https://www.transparenttextures.com/patterns/office.png)`, backgroundSize: 'cover'}}>
-            <ProfileImg img={"https://i.imgur.com/hxmTqUn.jpg?1"}/>
+            <ProfileImg img={"https://i.imgur.com/z0n6f40.jpeg"}/>
             <AboutCard />
             <div className=''>
                 <h3 className='content-header' style={{color: 'white', borderBottom: '3px solid white'}}>My Work</h3>

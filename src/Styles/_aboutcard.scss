@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 1023px){
     .about-card{
-    
+        
         width: 100%;
         background-color: rgb(35, 35, 35);
         padding: 2em;
@@ -17,22 +17,38 @@
         text-align: center;
         
     }
+    
+    .header-ab{
+        overflow-y: hidden;
+        width: 80%;
+        margin-left: 10%;
+    }
 }
 
 @media only screen and (min-width: 1024px){
     .about-card{
-        width: 40%;
+        width: 50%;
         background-color: rgb(35, 35, 35);
         padding: 2em;
         padding-top: 3em;
+        min-height: 50vh;
+        border: 1px solid $secondarycolor;
         border-radius: 15px;
     }
 
     .para-about{
         color: rgba(255, 255, 255, 0.736);
         line-height: 1.4em;
-        font-size: medium;
+        font-size: large;
+        box-sizing: border-box;
+        padding: 1em;
         text-align: center;
         
+    }
+
+    .header-ab{
+        width: 80%;
+        margin-left: 10%;
+        overflow: hidden;
     }
 }

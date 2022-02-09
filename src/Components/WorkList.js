@@ -1,41 +1,41 @@
 import React from 'react'
 import WorkCard from './WorkCard';
-import webdev from '../Data/webdev.svg'
-import socialmedia from '../Data/socialmedia.svg'
-import ubereats from '../Data/ubereats.svg'
-import youtuber from '../Data/youtuber.svg'
+import SocialMedia from '../Data/Imgs/SocialMedia.png'
+import Gamer from '../Data/Imgs/Gamer.png'
+import Solutions from '../Data/Imgs/Solutions.png'
+import TikTok from '../Data/Imgs/TikTok.png'
 import '../Styles/styles.css'
 
 export default function WorkList() {
     return (
         <ul className='work-list'>
             <WorkCard direction={"work-item-r"} 
-            title={"Web Developer"} 
-            img={webdev} 
-            para={"With 2 years experience building responsive websites and a commitment to customer satisfaction you can rest assured your website will be taken care of."} 
-            link_title={"View More"} link={"https://www.serotonindesigns.com"} 
-            link_titlecta={"Hire Me"} link_cta={"https://form.jotform.com/220207089713149"} />
+            title={"Gamer Girl"} 
+            img={Gamer} 
+            para={"I love video games, I play on PS4, PC and Switch. Some of my favorite games right now are Valorant and Phasmophobia"} 
+            link_title={"Book a Game"} link={"https://form.jotform.com/220394731934155"} 
+            link_titlecta={"Watch Me Play"} link_cta={"https://www.twitch.tv/amysky99x"} />
             
             <WorkCard direction={"work-item"} 
             title={"Social Media Manager"} 
-            img={socialmedia} 
-            para={"We've developed a track record of growing social media accounts cross platform. Grow your media presence to increase your reach and conversions."} 
+            img={SocialMedia} 
+            para={"I have a track record of growing social media accounts cross platforms. I can help you grow your media presence too."} 
             link_title={"View Accounts"} link={"https://www.amysky99.com/links"} 
-            link_titlecta={"Hire Me"} link_cta={"https://form.jotform.com/220207089713149"} />
+            link_titlecta={"Let's talk"} link_cta={"https://form.jotform.com/220394731934155"} />
             
             <WorkCard direction={"work-item-r"} 
-            title={"Youtube Creator"} 
-            img={youtuber} 
-            para={"Information is the key to success, that's why we are committed to sharing our processes with you, for free on Youtube."} 
-            link_title={"View my channel"} link={"https://www.youtube.com/channel/UCeNLqAes-kUMjWksPA6d-BA"} 
-            link_titlecta={"Subscribe"} link_cta={"https://www.youtube.com/channel/UCeNLqAes-kUMjWksPA6d-BA"} />
+            title={"Tik-Tok Creator"} 
+            img={TikTok} 
+            para={"I use Social Media a lot, but one of my favorites has consistently been Tiktok, I still love it and use it daily."} 
+            link_title={"View Tik-Tok"} link={"https://www.tiktok.com/@amysky99x?"} 
+            link_titlecta={"Brands Contact"} link_cta={"https://form.jotform.com/220394731934155"} />
             
             <WorkCard direction={"work-item"}
-            title={"Uber Eats Delivery Driver"}
-            img={ubereats}
-            para={"6 Months ago I started delivering food on a bike with Uber Eats, since then my health has improved and so has my financial situation. "} 
-            link_title={"Learn More"} link={"https://www.uber.com/us/en/s/c/deliver/?invite_code=j9nfnjyrg8ky"} 
-            link_titlecta={"Use My Referral"} link_cta={"https://www.uber.com/us/en/s/c/deliver/?invite_code=j9nfnjyrg8ky"} />
+            title={"Solutions Expert"}
+            img={Solutions}
+            para={"Being a digital creator is more rewarding than ever before, but it's also very difficult, if you've had issues with accounts reach out, I can help."} 
+            link_title={"Learn More"} link={"https://www.digitalvidya.com/blog/social-media-expert/"} 
+            link_titlecta={"Get In Touch"} link_cta={"https://form.jotform.com/220394731934155"} />
         </ul>
     )
 }

@@ -5,20 +5,20 @@ export default function Footer() {
     return (
         <div className='footer-wrapper'>
                <div className="support-me">
-            <h2 className="support-header">Programming</h2>
+            <h2 className="support-header">Social Media</h2>
                 <p className="support-para">
                     If you need help starting out check the links down below.
                 </p>
                 
    
-                <a className="support-me-link" href="https://www.theodinproject.com/" target="_blank">
-                    <button className="support-me-btn">Free BootCamp</button>
+                <a className="support-me-link" href="https://www.amysky99.com" target="_blank">
+                    <button className="support-me-btn">View My links</button>
                 </a>
 
-                <a className="support-me-link"  href="https://www.serotonindesigns.com/contact" target="_blank">
-                    <button className="support-me-btn">Contact Developer</button>
+                <a className="support-me-link"  href="https://form.jotform.com/220394731934155" target="_blank">
+                    <button className="support-me-btn">Contact Me</button>
                 </a>
-                <a className="support-me-link"  href="https://www.thehartford.com/business-insurance/strategy/building-website/10-reasons-need-website" target="_blank">
+                <a className="support-me-link"  href="https://ataria.media/why-is-social-media-important/" target="_blank">
                     <button className="support-me-btn">Learn More</button>
                 </a>
             </div>
@@ -26,19 +26,19 @@ export default function Footer() {
             <div className="support-me">
                 <h2 className="support-header">Support me</h2>
                 <p className="support-para">
-                    Creating websites and learning about technology is my passion help support me
+                    Creating connections and learning about media is my passion, help support me at:
                 </p>
                 
    
-                <a className="support-me-link" href="https://cash.app/$shCherx" target="_blank">
+                <a className="support-me-link" href="https://www.peachpay.me/amysky99/payme" target="_blank">
                     <button className="support-me-btn">Donate</button>
                 </a>
 
-                <a className="support-me-link"  href="https://www.patreon.com/serotoninexperience" target="_blank">
+                <a className="support-me-link"  href="https://www.patreon.com/join/amysky99" target="_blank">
                     <button className="support-me-btn">Patreon</button>
                 </a>
-                <a className="support-me-link"  href="https://www.upwork.com/freelancers/~012c34c2572c7f7719" target="_blank">
-                    <button className="support-me-btn">Hire me</button>
+                <a className="support-me-link"  href="https://www.etsy.com/uk/shop/amysky99" target="_blank">
+                    <button className="support-me-btn">Merch</button>
                 </a>
           
              

@@ -69,29 +69,21 @@
 
 @media only screen and (min-width: 1024px){
     .process-card{
-        height: 80vh;
+        height: 60vh;
         background-color: #303030;
-        width: 90%;
-        margin-top: 1em;
-        border-radius: 50px;
-
-        display: grid;
-        grid-template-rows: 85% 15%;
-        padding: 1em;
+        width: 100%;
     }
 
 
     .process-lists{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap: 2em;
-        padding: 1em;
     }
 
     .process-list-container{
-        padding: 1.5em;
+        height: 50vh;
         background-color: #1b1b1b;
-        border-radius: 50px;
+        border: 1px solid white;
     }
     
     .process-title-intro-container{

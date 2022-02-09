@@ -1,17 +1,18 @@
 import React from 'react'
 import FooterContent from 'Containers/FooterContent'
 import LinkContent from 'Containers/LinkContent'
-import HamBurgerNav from 'Components/HamBurgerNav'
+import links from 'Data/Links/Links'
+import Nav from 'Components/Nav'
 import '../Styles/styles.css'
 
 
 export default function LinksPage() {
     return (
         <div className='home-wrapper'>
-            <HamBurgerNav />
+            <Nav />
 
             <main>
-                <LinkContent />
+                <LinkContent links={links}/>
                 <FooterContent />   
             </main>
       

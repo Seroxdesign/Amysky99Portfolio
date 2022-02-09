@@ -8,7 +8,7 @@ export default function LandingRouting() {
         <div className='landing-router'>
         
             <a href='https://form.jotform.com/220207211551035' target="_blank">
-                <button className='consult-btn'>Free Consultation</button>
+                <button className='consult-btn'>18+</button>
             </a>
           
     

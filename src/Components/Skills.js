@@ -7,7 +7,7 @@ export default function Skills() {
     return (
         <div className='skills-wrapper'>
             <div className='skill-collection'>
-                <h4 className='skill-header'>Web Development</h4>
+                <h4 className='skill-header'>My Hobbies</h4>
 
                 <div className='skill-grid-collection'>
                     {Skilled.map((skill, i) => {

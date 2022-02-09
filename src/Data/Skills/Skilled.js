@@ -1,4 +1,4 @@
 const Skilled = 
-    ['https://i.imgur.com/RUVfNLN.png', 'https://i.imgur.com/wQekPzC.png', 'https://i.imgur.com/7bsarVi.png', 'https://i.imgur.com/PG5fcwe.png', 'https://i.imgur.com/FCJkPwb.png', 'https://i.imgur.com/M1Atklu.png', 'https://i.imgur.com/BYf8e7Z.png']
+    ['https://i.imgur.com/msmAS0V.png', 'https://i.imgur.com/yIYTLhR.png', 'https://i.imgur.com/Ez1YSgv.png', 'https://i.imgur.com/PI3K7rK.png', 'https://i.imgur.com/rLEGre7.png', 'https://i.imgur.com/9UTDEbS.png']
 
 export default Skilled

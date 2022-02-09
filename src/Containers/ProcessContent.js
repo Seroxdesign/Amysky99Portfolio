@@ -4,9 +4,7 @@ import '../Styles/styles.css'
 
 export default function ProcessContent() {
     return (
-        <div className='process-content'>
-            <h2 className='content-header'>Our process</h2>
-            
+        <div className='process-content'> 
             <ProcessCard />
         </div>
     )

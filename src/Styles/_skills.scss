@@ -34,13 +34,21 @@
         align-items: center;
         justify-content: space-around;
     }
+
+    .skill-img{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }
 
 @media only screen and (min-width: 1024px){
     .skills-wrapper{
         height: 70vh;
-        width: 40%;
+        width: 50%;
         margin-top: 2em;
+
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 1em;
@@ -55,6 +63,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        border: 1px solid $secondarycolor;
     }
 
     .skill-header{
@@ -69,5 +78,9 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+    }
+
+    .skill-img{
+        height: 15em;
     }
 }
