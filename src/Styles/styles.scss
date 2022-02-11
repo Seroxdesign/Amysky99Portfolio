@@ -1,10 +1,7 @@
 @import './variables';
-
 @import './mainheader';
 @import './secondaryheader';
-@import './landingrouter';
 @import './worklist';
-@import './processcard';
 @import './footer';
 @import './services';
 @import './profileimg';
@@ -13,67 +10,49 @@
 @import './skills';
 @import './PoweredBy';
 @import './Nav';
-@import './TestimonialCard';
-
-.warning-card{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    background-color: #0f0f0f;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10vw;
-    padding-right: 10vw;
-}
-
-.warning-head{
-    font-size: xx-large;
-    color: rgb(223, 111, 111);
-}
-
-
-.warning-para{
-    margin-top: 1em;
-    font-size: x-large;
-    color: white;
-    margin-bottom: 3em;
-}
-
-.warningbtn{
-    height: 10vh;
-    width: 30vw;
-    background-color: $secondarycolor;
-    color: white;
-    margin-top: 1.3em;
-    border-radius: 50px;
-    font-size: large;
-    cursor: pointer;
-    transition: 0.7s;
-
-    &:hover{
-        transform: scale(0.9);
-        background-color: $maincolor;
-    }
-}
 
 @media only screen and (min-width: 1024px){
 
+    .warning-card{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        background-color: #0f0f0f;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
     
-
-    .project-1{
-        background-image: linear-gradient(-45deg, rgba(226, 213, 213, 0.75), rgb(128, 38, 196));
-   
+    .warning-head{
+        font-size: xx-large;
+        color: rgb(223, 111, 111);
     }
-    .project-2{
-        background-image: linear-gradient(45deg, rgba(226, 213, 213, 0.75), rgb(17, 171, 153));
+    
+    
+    .warning-para{
+        margin-top: 1em;
+        font-size: x-large;
+        color: white;
+        margin-bottom: 3em;
     }
-    .project-3{
-        background-image: linear-gradient(-135deg, rgba(226, 213, 213, 0.75), rgb(17, 171, 86));
-    }
-
-    .project-4{
-        background-image: linear-gradient(135deg, rgba(226, 213, 213, 0.75), rgb(171, 17, 50));
+    
+    .warningbtn{
+        height: 10vh;
+        width: 30vw;
+        background-color: $secondarycolor;
+        color: white;
+        margin-top: 1.3em;
+        border-radius: 50px;
+        font-size: large;
+        cursor: pointer;
+        transition: 0.7s;
+    
+        &:hover{
+            transform: scale(0.9);
+            background-color: $maincolor;
+        }
     }
 
     .container-content{
@@ -276,42 +255,6 @@
 @media only screen and (max-width: 1023px){
 
 
-    .project-1{
-        background-image: linear-gradient(-45deg, rgba(226, 213, 213, 0.75), rgb(128, 38, 196));
-   
-    }
-    .project-2{
-        background-image: linear-gradient(45deg, rgba(226, 213, 213, 0.75), rgb(17, 171, 153));
-    }
-    .project-3{
-        background-image: linear-gradient(-135deg, rgba(226, 213, 213, 0.75), rgb(17, 171, 86));
-    }
-
-    .project-4{
-        background-image: linear-gradient(135deg, rgba(226, 213, 213, 0.75), rgb(171, 17, 50));
-    }
-
-   
-    .copy-to-btn{
-        height: 7vh;
-        width: 7vh;
-        border: 1px solid $maincolor; 
-        border-radius: 50%;
-        position: absolute;
-        top: 2vh;
-        left: 3vh;
-        background-color: rgb(20, 20, 20);
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .share-btn{
-        height: 1em;
-        filter: brightness(0) invert(0.6);
-    }
-
     .footer-content{
         width: 100%;
         height: 100%;
@@ -332,8 +275,8 @@
         height: 100%;
         width: 100%;
         background-color: $pageBGcolor;
-        padding-left: 10vw;
-        padding-right: 10vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
         padding-top: 2em;
         padding-bottom: 2em;
         display: flex;
@@ -441,6 +384,52 @@
         border: 1px solid white;
         margin-left: 5%;
         border-radius: 50px;
+    }
+
+
+    .warning-card{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        background-color: #0f0f0f;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    
+    .warning-head{
+        text-align: center;
+        font-size: xx-large;
+        color: rgb(223, 111, 111);
+    }
+    
+    
+    .warning-para{
+        margin-top: 1em;
+        font-size: x-large;
+        color: white;
+        margin-bottom: 2em;
+        text-align: center;
+    }
+    
+    .warningbtn{
+        height: 7vh;
+        width: 70vw;
+        background-color: $secondarycolor;
+        color: white;
+        margin-top: 1.3em;
+        border-radius: 50px;
+        font-size: large;
+        cursor: pointer;
+        transition: 0.7s;
+    
+        &:hover{
+            transform: scale(0.9);
+            background-color: $maincolor;
+        }
     }
 }
 

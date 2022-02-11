@@ -5,8 +5,10 @@
         margin-top: 2em;
         border-bottom: 5px solid black;
         color: white;
+        font-size: x-large;
     }
     .work-title{
+        text-align:xx-large;
         text-align: center;
         border-bottom: 2px solid $pageBGcolor;
         padding-bottom: 1em;
@@ -18,7 +20,7 @@
         margin-left: 10%;
         margin-top: 1em;
         text-align: center;
-        font-size: small;
+        font-size:  large;
         opacity: 0.9;
         margin-bottom: 2em;
         color: rgba(255, 255, 255, 0.6);
@@ -29,9 +31,11 @@
     }
 
     .work-link{
-        background-color: #303030;
+        background-color: #171717;
         height: 7vh;
-        width: 50%;
+        width: 80%;
+        margin-left: 10%;
+        font-size: medium;
         margin-top: 1em;
         border: 2px solid $maincolor;
         color: white;
@@ -92,7 +96,6 @@
 
     .work-content-header{
         margin-top: 2em;
-
         color: white;
     }
 
@@ -100,14 +103,15 @@
     .work-details{
         width: 90%;
         height: 100%;
-        
     }
 
     .work-title{
+        margin-top: 1em;
         text-align: center;
         border-bottom: 2px solid white;
         padding-bottom: 1em;
         width: 80%;
+        font-size: x-large;
         margin-left: 10%;
         color: white;
     }
@@ -117,7 +121,7 @@
         margin-left: 10%;
         margin-top: 1em;
         text-align: center;
-        font-size: small;
+        font-size: large;
         opacity: 0.9;
         margin-bottom: 2em;
         color: white;
@@ -126,9 +130,9 @@
     
     .work-link{
         background-color: $bordercolor;
-        height: 5vh;
-        width: 40%;
-        margin-left: 30%;
+        height: 6vh;
+        width: 60%;
+        margin-left: 20%;
         margin-top: 1em;
         border: 2px solid rgb(81, 81, 81);
         border-radius: 50px;

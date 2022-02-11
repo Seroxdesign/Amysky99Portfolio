@@ -6,10 +6,7 @@ const links = [
     ['https://i.imgur.com/GXQ4AeC.png', "https://www.tiktok.com/@amysky99x?", "@Amysky99x", "Back up Tiktok"],
     ['https://i.imgur.com/cbHzfgE.png', "https://www.instagram.com/amysky99x/", "@Amysky99x", "Instagram"],
     ['https://i.imgur.com/VEy7t1k.png', "https://twitter.com/amysky99x", "@Amysky99x", "Twitter"],
-    ['https://i.imgur.com/RZEPOJh.png?2', "https://www.amazon.co.uk/hz/wishlist/ls/22WIKV1ABM458?ref_=wl_share", "Amazon", "Cosplay wishlist"],
-    ['https://i.imgur.com/RZEPOJh.png?2', "https://www.amazon.co.uk/hz/wishlist/ls/10PHBBI70VV59?ref_=wl_share", "Amazon", "Gaming Wishlist"],
-    ['https://i.imgur.com/bBQgbdM.png', "https://amysky99.com/adult-links", "My adult links", "18+ only"],
-
+    ['https://i.imgur.com/bBQgbdM.png', "https://amysky99.com/spicy-links", "My Spicy links", "Spicy only"],
 ]
 
 

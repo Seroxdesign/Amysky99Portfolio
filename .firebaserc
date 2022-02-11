@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "serotoninportfolio"
-  }
+    "default": "AmySky99",
+    "amysky99": "amysky99-211e5"
+  },
+  "targets": {}
 }

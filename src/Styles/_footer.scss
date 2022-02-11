@@ -8,12 +8,11 @@
         overflow-x: hidden;
         flex-direction: column;
         display: flex;
-
         padding-top: 1em;
     }
 
     .site-map{
-        height: 50vh;
+        height: 60vh;
         margin-top: 1em;
         display: flex;
         flex-direction: column;
@@ -25,7 +24,7 @@
 
     .support-me{
         border-bottom: 1px solid rgba(255, 255, 255, 0.374);
-        height: 50vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -44,12 +43,13 @@
 
     .support-header{
         color: rgb(230, 227, 227);
-        font-size: large;
+        font-size: x-large;
     }
 
     .support-para{
-        font-size: x-small;
+        font-size: large;
         margin-top: 1em;
+        margin-bottom: 1em;
         width: 80%;
         text-align: center;
         color: rgba(255, 255, 255, 0.537);
@@ -91,6 +91,12 @@
     }
 }
 
+
+
+
+
+
+
 @media only screen and (min-width: 1024px){
     .footer-wrapper{
         height: 60vh;
@@ -123,8 +129,7 @@
 
     .support-me{
         margin-top: 3em;
-        padding-left: 1em;
-      
+        padding-left: 1em;     
         height: 70%;
         display: flex;
         flex-direction: column;
@@ -147,8 +152,8 @@
 
     .support-para{
         margin-top: 1em;
-        font-size: small;
-        height: 5em;
+        font-size: medium;
+        margin-bottom: 2em;
         width: 50%;
         margin-left: 25%;
         color: rgba(255, 255, 255, 0.537);

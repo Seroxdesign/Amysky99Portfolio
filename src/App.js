@@ -34,7 +34,7 @@ function App() {
       <ScrollToTop> 
         <Routes>
           <Route exact path="/links" element={<LinksPage />}></Route>
-          <Route exact path="/adult-links" element={<AdultLinksPage />}></Route>
+          <Route exact path="/spicy-links" element={<AdultLinksPage />}></Route>
           <Route exact path="/" element={<AboutPage />}></Route>
         </Routes>
       </ScrollToTop>

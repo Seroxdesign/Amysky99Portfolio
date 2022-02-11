@@ -26,7 +26,7 @@ export default function Footer() {
             <div className="support-me">
                 <h2 className="support-header">Support me</h2>
                 <p className="support-para">
-                    Creating connections and learning about media is my passion, help support me at:
+                    If you're feeling generous, help support me at:
                 </p>
                 
    
