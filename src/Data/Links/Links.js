@@ -6,7 +6,7 @@ const links = [
     ['https://i.imgur.com/GXQ4AeC.png', "https://www.tiktok.com/@amysky99x?", "@Amysky99x", "Back up Tiktok"],
     ['https://i.imgur.com/cbHzfgE.png', "https://www.instagram.com/amysky99x/", "@Amysky99x", "Instagram"],
     ['https://i.imgur.com/VEy7t1k.png', "https://twitter.com/amysky99x", "@Amysky99x", "Twitter"],
-    ['https://i.imgur.com/bBQgbdM.png', "https://amysky99.com/spicy-links", "My Spicy links", "Spicy only"],
+    ['https://i.imgur.com/bBQgbdM.png', "https://amysky99.com/spicy-links", "My Spicy links", "Spicy"],
 ]
 
 
