@@ -21,7 +21,7 @@ export default function LinkContent(props) {
             </div>
 
             {props.links.map((link, key) => {
-                return <Link img={link[0]} title={link[2]} link={link[1]} media={link[3]} key={`social-link-${key}`} onClick={() => logEvent(analytics, `${link[2]} link button`)} />
+                return <Link img={link[0]} title={link[2]} link={link[1]} media={link[3]} key={`social-link-${key}`} onClick={() => logEvent(analytics, "link button")} />
             })}
 
             <div className='logo-clicker'>
