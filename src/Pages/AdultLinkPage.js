@@ -24,7 +24,7 @@ export default function AdultLinksPage() {
                 <div className='warning-card'>
                     <h2 className='warning-head'>This page contains Adult content</h2>
                     <p className='warning-para'>You may only view this if you are 18+</p>
-                    <a href="https://www.amysky99.com/"><button className='warningbtn'>Take me back</button></a>
+                    <a href="https://www.amysky99.com/"><button className='warningbtn2'>Take me back</button></a>
                     <button className='warningbtn' onClick={() => {
                         set_verify(true)
                     }}>I am 18+</button>

@@ -1,13 +1,15 @@
-import React from 'react'
+import React,{useEffect}  from 'react'
 import ProfileImg from 'Components/ProfileImg'
 import Link from 'Components/Link'
 import { getAnalytics, logEvent } from "firebase/analytics";
 
 import '../Styles/styles.css'
 
+
 export default function LinkContent(props) {
 
     const analytics = getAnalytics();
+
 
     return (
         <div className='links-content' style={{backgroundImage: `url(https://www.transparenttextures.com/patterns/office.png)`, backgroundSize: 'cover'}}>

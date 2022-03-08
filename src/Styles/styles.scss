@@ -55,6 +55,23 @@
         }
     }
 
+    .warningbtn2{
+        height: 10vh;
+        width: 30vw;
+        background-color: white;
+        color: black;
+        margin-top: 1.3em;
+        border-radius: 50px;
+        font-size: large;
+        cursor: pointer;
+        transition: 0.7s;
+    
+        &:hover{
+            transform: scale(0.9);
+        }
+    }
+
+
     .container-content{
         width: 100%;
         padding-left: 10vw;
