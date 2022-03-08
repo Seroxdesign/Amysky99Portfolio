@@ -1,9 +1,16 @@
-import React from 'react'
+import React,{useEffect}  from 'react'
 import ProfileImg from 'Components/ProfileImg'
 import Link from 'Components/Link'
+import { getAnalytics, logEvent } from "firebase/analytics";
+
 import '../Styles/styles.css'
 
+
 export default function LinkContent(props) {
+
+    const analytics = getAnalytics();
+
+
     return (
         <div className='links-content' style={{backgroundImage: `url(https://www.transparenttextures.com/patterns/office.png)`, backgroundSize: 'cover'}}>
             <ProfileImg img={"https://i.imgur.com/z0n6f40.jpeg"}/>
@@ -16,7 +23,7 @@ export default function LinkContent(props) {
             </div>
 
             {props.links.map((link, key) => {
-                return <Link img={link[0]} title={link[2]} link={link[1]} media={link[3]} key={`social-link-${key}`}/>
+                return <Link img={link[0]} title={link[2]} link={link[1]} media={link[3]} key={`social-link-${key}`} onClick={() => logEvent(analytics, "link button")} />
             })}
 
             <div className='logo-clicker'>
