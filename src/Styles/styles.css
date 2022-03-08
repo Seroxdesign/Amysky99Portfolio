@@ -1001,10 +1001,7 @@
     display: flex;
   }
   .nav-menu {
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    width: 30vw;
+    width: 100vw;
     background-color: #2a2929;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1029,12 +1026,6 @@
   .active {
     color: white;
     border-bottom: 2px solid white;
-  }
-  .logo-container {
-    width: 20vw;
-  }
-  .announcement-container {
-    width: 50vw;
   }
 }
 
@@ -1636,6 +1627,15 @@
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
     background-color: #492025;
+  }
+  .warningbtn2 {
+    height: 7vh;
+    width: 70vw;
+    background-color: white;
+    color: black;
+    margin-top: 1.3em;
+    border-radius: 50px;
+    font-size: large;
   }
 }
 

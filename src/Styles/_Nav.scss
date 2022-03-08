@@ -9,8 +9,8 @@
     }
     
     .nav-menu{
-        align-items: flex-end;
-        width: 30vw;
+
+        width: 100vw;
         background-color: rgb(42, 41, 41);
         display: flex;
         align-items: center;
@@ -31,13 +31,6 @@
         border-bottom: 2px solid white;
     }
 
-    .logo-container{
-        width: 20vw;
-    }
-
-    .announcement-container{
-        width: 50vw;
-    }
 }
 
 @media only screen and (max-width: 1024px){

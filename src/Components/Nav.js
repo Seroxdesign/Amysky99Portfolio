@@ -17,8 +17,9 @@ export default function Nav() {
 
             <nav className="nav-menu">
                 <NavLink exact to="/" className={`menu-item-nav`} activeClassName={'active_nav'}>Home</NavLink>
+                <NavLink to="/about" className={`menu-item-nav`} activeClassName={'active_nav'}>About</NavLink>
                 <NavLink to="/links" className={`menu-item-nav`} activeClassName={'active_nav'}>Links</NavLink>
-                <NavLink to="/spicy-links" className={`menu-item-nav`} activeClassName={'active_nav'}>Spicy Links</NavLink>
+                <NavLink to="/spicy-links" className={`menu-item-nav`} activeClassName={'active_nav'}>18+</NavLink>
             </nav>  
         </div>
     )

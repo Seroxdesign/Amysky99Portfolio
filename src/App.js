@@ -1,5 +1,6 @@
 import ScrollToTop from "HelperFunctions/ScrollToTop";
 import LinksPage from "Pages/LinksPage";
+import Homepage from "Pages/Homepage";
 import AboutPage from "Pages/AboutPage";
 import AdultLinksPage from "Pages/AdultLinkPage";
 import { initializeApp } from "firebase/app";
@@ -33,9 +34,10 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop> 
         <Routes>
-          <Route exact path="/links" element={<LinksPage />}></Route>
-          <Route exact path="/spicy-links" element={<AdultLinksPage />}></Route>
-          <Route exact path="/" element={<AboutPage />}></Route>
+          <Route exact path="/links" element={<LinksPage />} />
+          <Route exact path="/" element={<Homepage />} />
+          <Route exact path="/spicy-links" element={<AdultLinksPage />} />
+          <Route exact path="/about" element={<AboutPage />} />
         </Routes>
       </ScrollToTop>
     </Router>
